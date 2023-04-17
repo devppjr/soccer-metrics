@@ -28,11 +28,29 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.body-center{
+  background-color: #282c34;
+}
+
+.ctn-btn-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.ctn-btn-actions .MuiButton-root{
+  margin: 5px;
+  border:1px solid black !important;
+  color: #282c34 !important;
+}
+
+/* .ctn-input {
+  background-color: red; */
+/* } */
+
+.ctn-input .MuiTextField-root {
+  margin: 10px
+}
+
+.ctn-btn-save .MuiButton-root{
+  margin: 5px;
 }
